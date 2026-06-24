@@ -1,0 +1,16 @@
+{
+  "name": "sebenza-frontend",
+  "version": "1.0.0",
+  "description": "Sebenza frontend static server with API proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
